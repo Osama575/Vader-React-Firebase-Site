@@ -1,0 +1,349 @@
+/* GLOBAL STYLES CSS START */
+html,
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: inter;
+}
+
+/* GLOBAL STYLES CSS END */
+
+
+/* LANDING PAGE CSS START */
+
+.landBackground{
+  height: 100vh;
+  width: 100vw;
+  background-color:#0e0d0d;
+}
+
+.vortex{
+  position:absolute;
+  top: 50%;
+  left:50%;
+  
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(240, 235, 235, 0.534);
+  background-color: rgba(255, 255, 255, 0.952);
+  border-radius:50% ;
+  box-shadow: 2px 2px 2px 2px rgba(240, 235, 235, 0.534) ;
+}
+
+.landImg{
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.952);
+  border-radius:50% ;
+}
+
+.landText{
+  color: #fff;
+  font-family: Inter;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 900;
+  /* position: absolute; */
+  text-align: center;
+  padding-top: 10%;
+  left:50%;
+  transform: translate(-50% , -20%);
+  z-index: 99;
+}
+
+.landBtn{
+  color: #fff !important;
+  position: absolute;
+  top: 80%;
+  left:50%;
+  transform: translate(-50%, -80%);
+  background-color:#8010F1 !important;
+  width: 162px !important;
+  border-radius: 14px !important;
+  padding: .5rem !important;
+  font-size: 1rem !important;
+}
+
+@media (max-width: 768px){
+  .landText{
+    text-align: center !important;
+    padding-top: 40% !important;
+  }
+}
+
+
+@media (max-width: 820px){
+  .landText{
+    text-align: center !important;
+    padding-top: 40% !important;
+  }
+}
+/* LANDING PAGE CSS END */
+
+
+
+/* NAVIGATION BAR CSS START */
+
+.navBackground{
+  background-color: #000;
+}
+
+.subscribe{
+  width: 162px !important;
+  border-radius: 14px !important;
+  border: 1px solid #8010F1 !important;
+  color: #8010F1 !important;
+  padding: .5rem !important;
+}
+
+.subscribe:hover{
+  background-color: #fff !important;
+}
+
+
+.wrapNav{
+  display: flex !important;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navLinks{
+  margin-right: 8rem !important;
+}
+
+.navLinks .active{
+  color: #8010F1 !important;
+}
+
+.homeWrap{
+  background-color:#0e0d0d !important;
+  height: fit-content;
+  width: 100vw;
+}
+
+@media (max-width: 768px){
+  .wrapNav{
+    display: flex !important;
+    flex-direction: row !important;
+    margin-left: 0px !important;
+  }
+
+  .navLinks{
+    margin-right: 0px !important;
+  }
+}
+
+@media (max-width: 820px){
+  .wrapNav{
+    display: flex !important;
+    flex-direction: row !important;
+    margin-left: 0px !important;
+  }
+
+  .navLinks{
+    margin-right: 0px !important;
+  }
+}
+
+/* NAVIGATION BAR CSS END */
+
+
+
+
+/* HERO SECTION CSS START */
+
+.heroWrap{
+  margin-top: 4rem !important;
+}
+
+.heroText{
+  text-align: left;
+  color: #fff;
+  margin-top: 6rem;
+}
+
+.heroText1{
+  text-align: left;
+  color: rgba(255, 255, 255, 0.79);
+  width: 100%;
+  font-size:18px;
+  font-weight: 300;
+  margin-top: 53px;
+  letter-spacing: 0.035em;
+  line-height: 180%;
+}
+
+.heroBtn{
+  background-color: #8010F1 !important;
+  margin-top: 51px !important;
+  border: none!important;
+  padding: .7rem !important;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+
+@media (max-width: 768px){
+  .heroText1{
+    line-height: 140%;
+  }
+
+  .heroImg{
+    height:100% !important;
+  }
+
+  .heroWrap{
+    display: flex !important;
+    flex-direction: column-reverse !important ;
+  }
+}
+
+@media (max-width: 820px){
+  .heroText1{
+    line-height: 140%;
+  }
+
+}
+
+/* HERO SECTION CSS END */
+
+
+
+
+/* ABOUT SECTION CSS START */
+  .aboutText{
+    text-align: left;
+    color: rgba(255, 255, 255, 0.79);
+    width: 100%;
+    font-size:18px;
+    font-weight: 300;
+    margin-top: 53px;
+    letter-spacing: 0.035em;
+    line-height: 180%;
+  }
+
+@media (max-width: 768px){
+  .aboutImg{
+    width: 100% !important;
+    height: 100% !important;
+    display: block !important;
+    object-fit: cover;
+  }
+
+  .aboutTitle{
+    margin-top: 4rem !important;
+    text-align: center !important;
+  }
+
+  .aboutWrap{
+    display: flex !important;
+    flex-direction: column !important ;
+  }
+
+  .aboutText{
+    margin-top: 2rem !important;
+  }
+}
+
+@media (min-width: 820px){
+  .aboutText{
+    line-height: 140%;
+  }
+}
+
+/* ABOUT SECTION CSS END */
+
+
+
+/* NEWSLETTER SECTION CSS START */
+  .newsWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 268px;
+    width: 100%;
+    background: #8010F1;
+    border-radius: 34px;
+  }
+
+  .newsText{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0.035em;
+    color: #0e0d0d;
+    padding: 1rem;
+  }
+
+  .newsBtn{
+    background-color: #0e0d0d !important;
+    width: 120px !important;
+    border-radius: 7px !important;
+    margin-top: 20px !important;
+    border: none !important;
+  }
+
+  .formWrap{
+    width: 309px;
+    margin-top: 20px !important;
+  }
+
+
+  @media (max-width: 768px){
+    .newsText{
+      font-size: 20px;
+    }
+
+    .newsWrap{
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+/* NEWSLETTER SECTION CSS START */
+
+
+
+/* FOOTER SECTION CSS START */
+.footWrap{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 40px;
+}
+
+.footWrap p{
+  margin: 0px !important;
+}
+
+.footIcons{
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hRule{
+  border: 2px solid #8010F1 !important;
+  display: none;
+}
+
+@media (max-width: 768px){
+  .footWrap{
+    display: block !important;
+  }
+
+  .footIcons{
+    margin-top: 2rem ;
+    justify-items: center !important;
+  }
+
+  .hRule{
+    display: block;
+  }
+}
+
+/* FOOTER SECTION CSS END */
